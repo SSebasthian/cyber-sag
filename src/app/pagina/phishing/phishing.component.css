@@ -121,6 +121,18 @@
 
 /* REPONSIVE */
 
+
+@media (max-width: 1120px) {
+
+    .contenido-general .pantalla-completa .contenido-con-imagen img {
+        max-width: 250px;
+    }
+
+    .contenido-general .pantalla-completa .texto h1 {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 1024px) {
 
     .contenido-submenu {
@@ -135,6 +147,10 @@
         font-size: 16px;
         padding: 8px 5px;
     }
+
+    .contenido-general{
+        margin-left: 180px; 
+    }
 }
 
 
@@ -143,4 +159,23 @@
     .contenido-submenu {
         display: none;
     }
+
+    .contenido-general{
+        margin-left: 0px; 
+    }
+    
+    .contenido-general .pantalla-completa{
+        margin-bottom: 10px;
+    }
+
+    .contenido-general .pantalla-completa .contenido-con-imagen {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenido-general .pantalla-completa .contenido-con-imagen .logo{
+        display: block;
+        width: 200px;
+        margin: auto;
+    } 
 }
