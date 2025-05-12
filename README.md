@@ -30,3 +30,4 @@ dist/cybe/browser  (Ruta para Dejar el DEPLOY del Proyecto)<br>
 
 
 ## Creación de Proyecto Angular
+`ng generate component pagina/phishing` (PHISHING)<br>
