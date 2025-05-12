@@ -348,6 +348,82 @@
     color: #555;
 } 
 
+/* SECCOPM TRAMPAS MAS COMUNES */
+
+.contenido-general #trampas {
+    padding: 10px 30px;
+    background-color: #f5f5f5;
+    color: #333;
+    position: relative;
+}
+  
+.contenido-general #trampas .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contenido-general #trampas h2 {
+    font-size: 2.2rem;
+    color: #614738;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#trampas h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #685347;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.contenido-general #trampas .tabla-trampas {
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+  
+.contenido-general #trampas .fila {
+    display: flex;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 0.92rem;
+}
+
+.contenido-general #trampas .fila:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.contenido-general #trampas .alerta {
+    flex: 1;
+    font-weight: 600;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-general #trampas .alerta mat-icon {
+    color: #614738;
+    left: 0;
+}
+
+.contenido-general #trampas .alerta span {
+    color: #b47e41;
+    margin-left: 10px;
+}
+
+.contenido-general #trampas .explicacion {
+    flex: 2;
+    color: #444;
+    line-height: 1.4;
+}
+
 
 /* REPONSIVE */
 

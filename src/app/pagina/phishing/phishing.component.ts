@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {MatIconModule} from '@angular/material/icon'
 
 @Component({
   selector: 'app-phishing',
-  imports: [],
+  imports: [
+    MatIconModule
+  ],
   templateUrl: './phishing.component.html',
   styleUrl: './phishing.component.css'
 })
