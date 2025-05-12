@@ -56,3 +56,34 @@
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
     font-size: 19px;
 }
+
+
+
+
+
+
+/* REPONSIVE */
+
+@media (max-width: 1024px) {
+
+    .contenido-submenu {
+        width: 180px;
+    }
+
+    .contenido-submenu .logo img {
+        width: 170px;
+    }
+
+    .contenido-submenu .nav a {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+    .contenido-submenu {
+        display: none;
+    }
+}
