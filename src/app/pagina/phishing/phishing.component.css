@@ -165,7 +165,109 @@
     font-weight: bold;
 }
   
+/* SECCION QUE ES PHISHING */
 
+.contenido-general #que-es-section {
+    padding: 20px 30px;
+    background-color: #f5f5f5;
+    color: #333;
+    position: relative;
+    box-sizing: border-box;
+}
+  
+.contenido-general #que-es-section .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.contenido-general #que-es-section h2 {
+    font-size: 2rem;
+    color: #614738;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+  
+.contenido-general #que-es-section h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #685347;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+  
+.contenido-general #que-es-section .intro {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #614738;
+    font-weight: bold;
+}
+  
+.contenido-general #que-es-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.contenido-general #que-es-section p strong {
+    font-size: 1.2rem;
+    color: #000;
+}
+  
+.contenido-general #que-es-section .version-digital {
+    font-style: italic;
+    font-weight: 500;
+    color: #555;
+}
+  
+.contenido-general #que-es-section .ventana-flotante {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: -80px;
+    margin-left: -80px;
+}
+  
+.contenido-general #que-es-section .ventana-flotante .tarjeta {
+    width: 190px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.contenido-general #que-es-section .ventana-flotante .tarjeta-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+  }
+  
+.contenido-general #que-es-section .ventana-flotante .tarjeta-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+  
+.contenido-general #que-es-section .ventana-flotante .tarjeta-image:hover {
+    transform: scale(0.98);
+}
+  
+.contenido-general #que-es-section .ventana-flotante .encabezado {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+    text-align: center;
+}
+  
 
 
 
