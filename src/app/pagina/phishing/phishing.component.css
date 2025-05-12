@@ -489,12 +489,51 @@
     text-align: center;
     color: #222;
     margin-bottom: 10px;
-  }
+}
   
 .contenido-general #evitar-phishing .consejo p {
     font-size: 14px;
     line-height: 1.5;
-  }
+}
+
+/* MENSAJE FINAL */
+
+.contenido-general #mensaje-final {
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-inline: auto;
+    background: #f5f5f5;
+}
+  
+.contenido-general #mensaje-final h2 {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 1rem;
+}
+  
+.contenido-general #mensaje-final .mensaje {
+    font-size: 1.2rem;
+    color: #004d40;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+  
+.contenido-general #mensaje-final .mensaje-positivo {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contenido-general #mensaje-final .atribucion {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+    opacity: 0.8;
+}
 
 
 /* REPONSIVE */
