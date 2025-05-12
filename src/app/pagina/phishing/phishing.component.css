@@ -114,6 +114,56 @@
     font-size: 1.2rem;
     color: #666;
 }
+
+
+/* SECCION POR QUE HICIMOS ESTO */
+
+.contenido-general #por-que-section {
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.contenido-general #por-que-section .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 15px;
+}
+  
+.contenido-general #por-que-section h2 {
+    font-size: 2rem;
+    color: #b47e41;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+  
+.contenido-general #por-que-section h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #d09956;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+  
+.contenido-general #por-que-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.contenido-general #por-que-section strong {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+}
   
 
 
