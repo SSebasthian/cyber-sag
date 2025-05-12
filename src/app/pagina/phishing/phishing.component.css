@@ -47,7 +47,7 @@
     font-size: 18px;
 }
 
-.contenido-submenu .nav .activa,
+.contenido-submenu .nav .activo,
 .contenido-submenu .nav a:hover{
     background-color: rgba(255, 255, 255, 0.9);  
     border-left: 4px solid #4889C2; 

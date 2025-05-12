@@ -7,11 +7,11 @@
             <img src="https://firebasestorage.googleapis.com/v0/b/cyber-sag.firebasestorage.app/o/Empresa%2Flogo.png?alt=media&token=d2c9d8b6-bf9b-4f36-9b79-2f8510728cfd" alt="Logo">
         </div>
         <ul class="nav">
-        <li><a href="#por-que-section">¿Por qué hicimos esto?</a></li>
-        <li><a href="#que-es-section">¿Qué es el phishing?</a></li>
-        <li><a href="#como-se-ve">¿Cómo se ve?</a></li>
-        <li><a href="#trampas">Las trampas más comunes</a></li>
-        <li><a href="#evitar-phishing">¿Cómo evitar caer?</a></li>
+            <li><a href="#por-que-section" [ngClass]="{'activo': enlaceActivo === '#por-que-section'}">¿Por qué hicimos esto?</a></li>
+            <li><a href="#que-es-section" [ngClass]="{'activo': enlaceActivo === '#que-es-section'}">¿Qué es el phishing?</a></li>
+            <li><a href="#como-se-ve" [ngClass]="{'activo': enlaceActivo === '#como-se-ve'}">¿Cómo se ve?</a></li>
+            <li><a href="#trampas" [ngClass]="{'activo': enlaceActivo === '#trampas'}">Las trampas más comunes</a></li>
+            <li><a href="#evitar-phishing" [ngClass]="{'activo': enlaceActivo === '#evitar-phishing'}">¿Cómo evitar caer?</a></li>
         </ul>
     </div>
 
