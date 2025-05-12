@@ -544,8 +544,35 @@
         grid-template-columns: 1fr;
         gap: 20px;
     }
+
     .contenido-general #como-se-ve .tarjeta img {
         max-width: 100%;
+    }
+
+    .contenido-general #trampas h2 {
+        font-size: 1.8rem;
+    }
+
+    .contenido-general #trampas .tabla-trampas {
+        margin: 20px 15px;
+    }
+
+    .contenido-general #trampas .fila {
+        flex-direction: column;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .contenido-general #trampas .alerta {
+        flex: 0;
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+
+    .contenido-general #trampas .explicacion {
+        flex: 0;
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
 }
 
@@ -573,5 +600,27 @@
 
     .contenido-general #por-que-section strong {
         font-size: 1rem;
+    }
+
+    .contenido-general #trampas h2 {
+        font-size: 1.6rem;
+    }
+
+    .contenido-general #trampas .tabla-trampas {
+        margin: 10px;
+    }
+
+    .contenido-general #trampas .fila {
+        flex-direction: column;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .contenido-general #trampas .alerta {
+        font-size: 1rem;
+    }
+
+    .contenido-general #trampas .explicacion {
+        font-size: 0.9rem;
     }
 }
