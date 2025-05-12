@@ -21,3 +21,12 @@
 `firebase init` (Hosting - Configure con GitHub)<br>
 dist/cybe/browser  (Ruta para Dejar el DEPLOY del Proyecto)<br>
 `firebase deploy`
+
+
+`ng build` <br>
+`firebase deploy`<br>
+
+ https://cyber-sag.web.app
+
+
+## Creación de Proyecto Angular
