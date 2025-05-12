@@ -14,3 +14,10 @@
 (Seguimos los pasos para autenticarnos con la cuenta de Firebase)<br>
 (Seleccionamos el correo con el que se registró Firebase)<br>
 (Seleccionamos el proyecto creado con Firebase (cyber-sag))<br>
+
+
+## Firebase DEPLOY
+`firebase login`
+`firebase init` (Hosting - Configure con GitHub)<br>
+dist/cybe/browser  (Ruta para Dejar el DEPLOY del Proyecto)<br>
+`firebase deploy`

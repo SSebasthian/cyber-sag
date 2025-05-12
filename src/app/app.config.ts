@@ -20,7 +20,7 @@ export const appConfig: ApplicationConfig = {
         appId: "1:860011833534:web:095b25af7bd016a6e496ef", 
         storageBucket: "cyber-sag.firebasestorage.app", 
         apiKey: "AIzaSyCni7O4cZw6HIK_0tK2EXkmj665w5Kz7NU", 
-        authDomain: "cyber-sag.firebaseapp.com", 
+        authDomain: "gs://cyber-sag.firebasestorage.app", 
         messagingSenderId: "860011833534" 
 
       })
