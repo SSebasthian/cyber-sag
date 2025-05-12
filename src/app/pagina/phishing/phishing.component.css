@@ -370,7 +370,7 @@
     text-align: center;
 }
 
-#trampas h2::after {
+.contenido-general #trampas h2::after {
     content: "";
     display: block;
     width: 100px;
@@ -423,6 +423,78 @@
     color: #444;
     line-height: 1.4;
 }
+
+ /* SECCION EVITAR PHISHING */
+
+.contenido-general #evitar-phishing {
+    padding: 0px 30px;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    position: relative;
+}
+  
+.contenido-general #evitar-phishing .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.contenido-general #evitar-phishing h2 {
+    font-size: 2.2rem;
+    color: #b47e41;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+  
+.contenido-general #evitar-phishing h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #d09956;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+  
+.contenido-general #evitar-phishing  .consejos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+  
+.contenido-general #evitar-phishing .consejo {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background: #fff;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    transition: transform 0.3s ease;
+}
+  
+.contenido-general #evitar-phishing .consejo:hover {
+    transform: translateY(-5px);
+}
+  
+.contenido-general #evitar-phishing .icono {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.contenido-general #evitar-phishing .consejo h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+.contenido-general #evitar-phishing .consejo p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
 
 /* REPONSIVE */
