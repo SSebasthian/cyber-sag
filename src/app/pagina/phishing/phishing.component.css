@@ -451,6 +451,26 @@
     .contenido-general #que-es-section .ventana-flotante .tarjeta {
         width: 45%;
     }
+
+    .contenido-general #como-se-ve {
+        padding: 20px 15px;
+    }
+
+    .contenido-general #como-se-ve h2 {
+        font-size: 1.8rem;
+    }
+
+    .contenido-general #como-se-ve .intro {
+        font-size: 1.1rem;
+    }
+
+    .contenido-general #como-se-ve .tarjetas-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .contenido-general #como-se-ve .tarjeta img {
+        max-width: 100%;
+    }
 }
 
 
