@@ -424,6 +424,97 @@
     line-height: 1.4;
 }
 
+/* SECCION PROCESO DE CAMBIO DE CONTRASEÑA */
+
+.contenido-general #no-cambiar-contrasena {
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contenido-general #no-cambiar-contrasena .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.contenido-general #no-cambiar-contrasena h2 {
+    font-size: 2rem;
+    color: #b47e41;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.contenido-general #no-cambiar-contrasena h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #d09956;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.contenido-general #no-cambiar-contrasena .caja-informativa {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.contenido-general #no-cambiar-contrasena .caja-informativa p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.contenido-general #no-cambiar-contrasena .pasos-proceso {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenido-general #no-cambiar-contrasena .pasos-proceso h3 {
+    font-size: 1.4rem;
+    color: #614738;
+    margin-bottom: 10px;
+}
+
+.contenido-general #no-cambiar-contrasena .pasos-proceso .fila,
+.contenido-general #no-cambiar-contrasena .pasos-proceso li,
+.contenido-general #no-cambiar-contrasena .pasos-proceso ul {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #d09956;
+    list-style: none;
+    margin: 0;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.4;
+    display: block;
+}
+
+.contenido-general #no-cambiar-contrasena .pasos-proceso strong {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Ajuste para que el texto dentro de .alerta se vea igual */
+.contenido-general #no-cambiar-contrasena .alerta {
+    color: #333;
+    font-weight: 500;
+}
+
  /* SECCION EVITAR PHISHING */
 
 .contenido-general #evitar-phishing {

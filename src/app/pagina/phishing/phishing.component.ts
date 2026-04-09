@@ -20,6 +20,7 @@ enlaceActivo: string = ''; //variable para almacenar ID de la Seccion Actual act
     '#que-es-section',
     '#como-se-ve',
     '#trampas',
+    '#no-cambiar-contrasena',
     '#evitar-phishing'
   ];
 
